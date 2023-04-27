@@ -1,4 +1,8 @@
-import logging, requests, json, asyncio, sqlite3
+import logging
+import requests
+import json
+import asyncio
+import sqlite3
 from aiogram import Bot, Dispatcher, executor, types
 con = sqlite3.connect("db.db")
 cur = con.cursor()
